@@ -1,0 +1,260 @@
+@import url('bootstrap/css/bootstrap.css');
+@import url('bootstrap/css/bootstrapv2.css');
+@import url('bootstrap/css/bootstrap-responsive.css');
+
+html {
+    margin-top: 0 !important;
+}
+
+body {
+    overflow-x: hidden;
+    font-size: 18px !important;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial !important;
+    text-shadow: 0 0 2px black;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url('./img/1.jpg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .intro-text {
+    margin-right: 160px !important;
+    margin-left: 160px !important;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+
+#navbar {
+    padding-top: 38px;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+}
+
+#social-navbar {
+    color: white;
+}
+
+#navbar ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+#navbar ul li {
+    display: inline-block;
+    padding-right: 30px;
+    padding-top: 10px;
+    letter-spacing: 1.5px;
+    float: right;
+}
+
+#navbar ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+#operate {
+    position: relative;
+    background-image: url('./img/2.jpg');
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.operate-heading {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.check-off {
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.check-off ul {
+    text-align: start;
+    padding-bottom: 200px;
+}
+
+.check-off ul li {
+    padding-bottom: 10px;
+    color: #13EEF9;
+}
+
+.check-off ul li span {
+    color: white;
+}
+
+#donate {
+    position: relative;
+    background-image: url('./img/4.jpg');
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.donate-heading {
+    font-size: 28px;
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.prince-holder {
+    padding-bottom: 50px;
+    font-style: italic;
+}
+
+#programs {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#programs div.col-lg-12.text-center {
+    padding-bottom: 50px;
+}
+
+#campaign {
+    height: 100px;
+    background-image: url('./img/6.jpg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#donations {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #535559;
+    color: white;
+}
+
+.donate-header {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.donate-desc p {
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+}
+
+.donate-button {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.donate-button button {
+    background-color: #E02865;
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+#green-box {
+    position: relative;
+    margin-left: 0;
+    background-color: #66AF34;
+    color: white;
+}
+
+#pink-box {
+    background-color: #EA2567;
+    color: white;
+}
+
+
+#blue-section {
+    background:#06c;
+}
+
+.green-box {
+    background-color: #63AA33;
+    position: absolute;
+    top: -50px;
+    left: 20%;
+     height: 100px;
+     width: 800px;
+}
+
+.green-box p {
+    padding-top: 25px;
+}
+
+.pink-box {
+    background: #E02865;
+    position: absolute;
+    top: -40px;
+    left: 35%;
+    height: 80px;
+    width: 400px;
+}
+
+.pink-box p {
+    padding-top: 30px;
+}
